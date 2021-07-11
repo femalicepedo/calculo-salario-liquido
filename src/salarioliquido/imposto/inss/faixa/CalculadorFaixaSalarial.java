@@ -17,6 +17,6 @@ public class CalculadorFaixaSalarial implements FaixaSalarial {
 
         return salarioBruto
                 .multiply(BigDecimal.valueOf(faixaEnum.getAliquota()))
-                .subtract(BigDecimal.valueOf(faixaEnum.getDeduzir()));
+                .subtract(BigDecimal.valueOf(faixaEnum.getDeducao()));
     }
 }

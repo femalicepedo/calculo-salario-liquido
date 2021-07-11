@@ -10,20 +10,20 @@ public enum FaixaEnum {
     QUARTA(3305.23, 6433.57, 0.14, 148.71),
     TETO(6433.58, Double.MAX_VALUE, 751.99, 0);
 
-    FaixaEnum(double min, double max, double aliquota, double deduzir) {
+    FaixaEnum(double min, double max, double aliquota, double deducao) {
         this.min = min;
         this.max = max;
         this.aliquota = aliquota;
-        this.deduzir = deduzir;
+        this.deducao = deducao;
     }
 
     private final double min;
     private final double max;
     private final double aliquota;
-    private final double deduzir;
+    private final double deducao;
 
-    public double getDeduzir() {
-        return deduzir;
+    public double getDeducao() {
+        return deducao;
     }
 
     public double getAliquota() {

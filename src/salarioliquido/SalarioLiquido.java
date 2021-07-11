@@ -23,7 +23,7 @@ public class SalarioLiquido {
         return salarioBruto;
     }
 
-    public void setSalarioLiquido(BigDecimal salarioLiquido) {
+    private void setSalarioLiquido(BigDecimal salarioLiquido) {
         this.salarioLiquido = salarioLiquido;
     }
 
